@@ -1,0 +1,9 @@
+.notification-wrapper {
+    @apply flex items-center justify-between space-x-3 absolute bottom-10 right-10 bg-[#FFFFFF] p-3 max-w-[375px] max-h-[300px] mx-auto rounded-[12px] border
+}
+.notification-title {
+    @apply text-base   font-medium text-black
+}
+.notification-paragraph {
+    @apply text-base  text-[#474747] 
+}

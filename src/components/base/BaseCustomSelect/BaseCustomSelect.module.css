@@ -1,0 +1,36 @@
+.menuWrapper {
+  @apply relative inline-block text-left justify-end;
+}
+.menuButton {
+  @apply inline-flex h-[40px] items-center min-w-[80px] border-none justify-center gap-x-1.5 rounded-md text-gray-500 bg-gray-100 px-[8px] py-[5.5px] text-sm  shadow-sm ring-inset  hover:bg-gray-50;
+}
+.secondMenuButton {
+  @apply inline-flex items-center border-none justify-center gap-x-2 bg-transparent px-[8px] py-[5.5px] ring-inset;
+}
+.imgStyles {
+  @apply inline-block h-8 w-8 rounded-full ring-2 ring-white;
+}
+.arrowStyles {
+  @apply -mr-1 text-gray-400;
+}
+.editButton {
+  @apply inline-flex items-center border-none justify-center bg-transparent  ring-inset;
+}
+.dotsIcon {
+  @apply inline-block h-auto w-auto rounded-full ring-white;
+}
+.menuItemsStyles {
+  @apply absolute right-0 z-10 mt-2 origin-top-right rounded-xl bg-white shadow-lg;
+}
+.filterWrapper {
+  @apply py-1 overflow-hidden;
+}
+.filterSpan {
+  @apply px-4 py-2 text-sm text-gray-700 flex gap-2 cursor-pointer items-start align-middle;
+}
+.logoutStyles {
+  @apply px-4 py-2 text-sm text-red-700 flex gap-2 cursor-pointer items-start align-middle;
+}
+.editStyles {
+  @apply px-4 py-2 text-sm flex gap-2 cursor-pointer items-start align-middle;
+}

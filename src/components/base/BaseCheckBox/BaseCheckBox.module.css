@@ -1,0 +1,9 @@
+.baseCheckBox {
+  @apply h-[16px] w-[16px] text-indigo-600 rounded-[4px] border-[#C9D0E1]/[.30] cursor-pointer;
+}
+.checkBoxWrapper {
+  @apply flex items-center;
+}
+.span {
+  @apply ml-2 text-[14px] text-[#474747] font-normal;
+}

@@ -1,0 +1,30 @@
+.wrapper {
+    @apply max-w-full p-6 border border-gray-200 rounded-[10px] m-auto 
+}
+.uppload-wrapper {
+    @apply flex flex-col items-center justify-center w-full max-h-96
+}
+.upload-title {
+    @apply font-bold text-base text-center mb-2
+}
+.upload-label {
+    @apply flex flex-col items-center justify-center w-full max-h-24 border-2 border-[#D1E0FF] border-dashed rounded-lg cursor-pointer
+}
+.upload-wrapper-inlabel {
+    @apply flex flex-col items-center justify-center pt-5 pb-6
+}
+.upload-paragraph { 
+    @apply mb-2 text-sm font-normal text-gray-500 dark:text-gray-400 
+}
+.upload-paragraph-span {
+    @apply font-semibold underline text-blue-500
+}
+.upload-allowed {
+    @apply text-xs text-gray-500 dark:text-gray-400 
+}
+.uploaded-wrapper {
+    @apply mt-2 flex w-full truncate space-x-[10px] text-sm bg-[#F5F8FF] border border-transparent border-b-blue-600 items-center rounded-lg p-[6px] text-black 
+}
+.upload-btn-wrapper {
+    @apply flex mt-6 items-center justify-between w-full
+}

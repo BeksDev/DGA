@@ -1,0 +1,280 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "ბექა",
+      "lastName": "მაღალდაძე",
+      "agency": "1",
+      "ident": "010110808555",
+      "position": "React დეველოპერი",
+      "email": "beka.maghaldadze@gmail.com",
+      "phone": "598 44 13 23",
+      "password": "123456789",
+      "gender": "მამრობითი",
+      "role": 1
+    },
+    {
+      "name": "როდიონ",
+      "lastName": "რასკოლნიკოვი",
+      "agency": "2",
+      "position": "დიზაინერი",
+      "ident": "010110808555",
+      "gender": "მამრობითი",
+      "email": "v.raskolnikov@gmail.com",
+      "phone": "598 44 44 44",
+      "createdAt": "2024-01-08T17:23:37.895Z",
+      "updatedAt": "2024-01-08T17:23:37.895Z",
+      "role": "2",
+      "password": "$2b$10$Fx4LZNirObHYSZQzJ6EH/uXogaCgLT32Eo78xlW4yH8fwrmVoXg2O",
+      "id": 2
+    },
+    {
+      "name": "ჯოზეფ",
+      "gender": "მამრობითი",
+      "lastName": "ბელი",
+      "agency": "3",
+      "ident": "010110808555",
+      "position": "გამომძიებელი",
+      "email": "merabkhatiashvili@gmail.com",
+      "phone": "599 78 85 11",
+      "createdAt": "2024-01-08T17:41:13.126Z",
+      "updatedAt": "2024-01-08T17:41:13.127Z",
+      "role": "1",
+      "password": "$2b$10$lw05fMZdRn9SklDbWS6tzuEjhC0OpNZZeqqHTIYhQMZNVhlGWvv9G",
+      "id": 3
+    },
+    {
+      "name": "რეი",
+      "lastName": "კუნის",
+      "ident": "02334123334",
+      "gender": "მამრობითი",
+      "agency": "2",
+      "role": "1",
+      "position": "მწერალი",
+      "email": "ray@gmail.com",
+      "phone": "599 22 33 44",
+      "file": "6d34d37a7e040ece.jpg",
+      "password": "$2b$10$i7U.4kvoTsaUU96ZPqqcyelfE0bZNv7z90Ea9eDC/gV1sbHtk5cPu",
+      "createdAt": "2024-01-31T21:32:36.702Z",
+      "updatedAt": "2024-01-31T21:32:36.702Z",
+      "id": 4
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "ადმინისტრატორი",
+      "description": "ადმინისტრატორს აქვს ყველა უფლება",
+      "permissions": {
+        "users": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "tabs": [
+          1,
+          2,
+          3
+        ],
+        "roles": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "name": "მოდერატორი",
+      "description": "მომხმარებლების და ჩანართების დამატება წაშლა",
+      "permissions": {
+        "users": [
+          1,
+          2
+        ],
+        "tabs": [
+          1,
+          2,
+          3
+        ]
+      },
+      "updatedAt": "2024-01-08T17:27:24.779Z",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "ექსპერტი",
+      "description": "წვდომა ჩნართებზე",
+      "permissions": {
+        "users": [],
+        "tabs": [
+          2
+        ],
+        "roles": []
+      }
+    }
+  ],
+  "permissions": {
+    "users": [
+      {
+        "id": 1,
+        "key": "add",
+        "name": "მომხმარებლის დამატება"
+      },
+      {
+        "id": 2,
+        "key": "delete",
+        "name": "მომხმარებლის წაშლა"
+      },
+      {
+        "id": 3,
+        "key": "update",
+        "name": "მომხმარებლის რედაქტირება"
+      },
+      {
+        "id": 4,
+        "key": "read only",
+        "name": "მხოლოდ დათვალიერება"
+      }
+    ],
+    "tabs": [
+      {
+        "id": 1,
+        "key": "add",
+        "name": "ჩანართის დამატება"
+      },
+      {
+        "id": 2,
+        "key": "add_archive",
+        "name": "ჩანართის არქივის დამატება"
+      },
+      {
+        "id": 3,
+        "key": "edit",
+        "name": "ჩანართის რედაქტირება"
+      },
+      {
+        "id": 4,
+        "key": "delete",
+        "name": "ჩანართის წაშლა"
+      },
+      {
+        "id": 5,
+        "key": "read only",
+        "name": "ჩანართის დათვალიერება"
+      }
+    ],
+    "roles": [
+      {
+        "id": 1,
+        "key": "add",
+        "name": "როლის დამატება"
+      },
+      {
+        "id": 2,
+        "key": "update",
+        "name": "როლის რედაქტირება"
+      },
+      {
+        "id": 3,
+        "key": "delete",
+        "name": "როლის წაშლა"
+      },
+      {
+        "id": 4,
+        "key": "read only",
+        "name": "დათვალიერება"
+      }
+    ]
+  },
+  "tabs": [
+    {
+      "name": "ინფრასტრუქტურა",
+      "name_code": "QUXFF QWGG",
+      "is_archive": 0,
+      "is_active": 1,
+      "document_level_id": "2",
+      "createdAt": "2024-01-31T20:09:21.082Z",
+      "updatedAt": "2024-01-31T21:11:45.323Z",
+      "id": 1
+    },
+    {
+      "name": "საქართველო",
+      "name_code": "LPBI0QODWV",
+      "is_archive": 0,
+      "is_active": 1,
+      "document_level_id": "1",
+      "createdAt": "2024-01-31T20:59:55.584Z",
+      "updatedAt": "2024-01-31T20:59:55.584Z",
+      "id": 2
+    },
+    {
+      "name": "ქვეყნის შიგნით",
+      "name_code": "6SIPB8RC2R",
+      "is_archive": 0,
+      "is_active": 1,
+      "document_level_id": "3",
+      "createdAt": "2024-01-31T21:00:15.826Z",
+      "updatedAt": "2024-01-31T21:00:15.826Z",
+      "id": 3
+    },
+    {
+      "name": "არქივი",
+      "name_code": "36FOCXWSFZ",
+      "is_archive": 1,
+      "is_active": 1,
+      "document_level_id": "2",
+      "createdAt": "2024-01-31T21:14:52.594Z",
+      "updatedAt": "2024-01-31T21:14:52.594Z",
+      "id": 4
+    },
+    {
+      "name": "საწყობი",
+      "name_code": "PHAQNYPP3K",
+      "is_archive": 1,
+      "is_active": 1,
+      "document_level_id": "1",
+      "createdAt": "2024-01-31T21:20:11.163Z",
+      "updatedAt": "2024-01-31T21:20:11.163Z",
+      "id": 5
+    },
+    {
+      "name": "საავადმყოფო",
+      "name_code": "A4ODNUKXLL",
+      "is_archive": 0,
+      "is_active": 1,
+      "document_level_id": "3",
+      "createdAt": "2024-01-31T21:20:29.903Z",
+      "updatedAt": "2024-01-31T21:20:29.903Z",
+      "id": 6
+    }
+  ],
+  "document_level": [
+    {
+      "id": 1,
+      "name": "ინსტიტუციური"
+    },
+    {
+      "id": 2,
+      "name": "სექტორული"
+    },
+    {
+      "id": 3,
+      "name": "ეროვნული"
+    }
+  ],
+  "agency": [
+    {
+      "id": 1,
+      "name": "ციფრული მმართველობის სააგენტო"
+    },
+    {
+      "id": 2,
+      "name": "საჯარო რეესტრის ეროვნული სააგენტო"
+    },
+    {
+      "id": 3,
+      "name": "სახელმწიფო სერვისების განვითარების სააგენტო"
+    }
+  ]
+}

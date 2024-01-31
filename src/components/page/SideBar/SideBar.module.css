@@ -1,0 +1,15 @@
+.sidebar-wrapper { 
+    @apply flex flex-col h-full bg-[#FFFFFF] rounded-[10px] py-[10px]
+}
+.text-wrapper {  
+    @apply flex items-center mb-[60px] 
+}
+.text-styles { 
+    @apply text-[8px] font-medium  h-[30px];
+}
+.link-styles { 
+    @apply flex text-sm  items-center py-3  border-l-2 border-transparent cursor-pointer
+}
+  .link-hover:hover {
+    @apply  hover:text-blue-600 hover:border-l-blue-600 hover:fill-blue-600
+  }

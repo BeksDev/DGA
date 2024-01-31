@@ -1,0 +1,12 @@
+.warning-text {
+    @apply text-black max-w-[502px] text-center    text-base font-bold
+}
+.success-text {
+    @apply text-green-800 max-w-[502px] text-center   text-base font-bold
+}
+.warn-wrapper { 
+    @apply max-w-[768px] mx-auto bg-white rounded-[10px] mt-12 border
+}
+.warn-directions {
+    @apply flex pt-8 pb-4 flex-col items-center
+}

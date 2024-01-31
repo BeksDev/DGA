@@ -1,0 +1,24 @@
+.login-wrapper {
+  @apply border border-blue-100 rounded-[16px] p-[24px];
+}
+.text-wrapper {
+  @apply flex flex-col items-center;
+}
+
+.login-title {
+  @apply text-[#000000] font-semibold text-sm text-center mt-[12px]  ;
+}
+
+.login-paragraph {
+  @apply text-center  text-[#757575] text-sm font-normal mt-[8px] mb-[24px];
+}
+
+.login-checkbox-wrapper {
+  @apply flex items-center justify-between mb-[24px];
+}
+.login-forgot-password {
+  @apply text-blue-600  font-normal text-[14px];
+}
+.login-button-wrapper {
+    @apply flex justify-between
+}

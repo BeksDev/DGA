@@ -1,0 +1,23 @@
+.select {
+  @apply cursor-pointer  truncate placeholder-[#757575] text-[16px] hover:border-blue-600 font-normal  border rounded-lg w-full py-3.5 px-3 leading-tight focus:outline-none border-[#C9D0E1]/[.30] focus:border-blue-600 focus:ring-2 focus:ring-blue-200;
+}
+.select-title {
+  @apply block  text-[#000000] text-sm font-semibold mb-[6px]  ;
+}
+
+.readOnlySelect {
+  @apply placeholder-[#757575] truncate text-[16px] font-normal  border rounded-lg w-full py-4 px-3.5 leading-tight  border-[#C9D0E1]/[.30] outline-none ;
+}
+
+.disabledSelect{
+  @apply placeholder-[#757575] truncate text-[16px] font-normal  border rounded-lg w-full py-4 px-3.5 leading-tight bg-[#F9F9FB]  border-[#C9D0E1]/[.30] outline-none cursor-not-allowed;
+}
+.notificationSelect {
+  @apply  truncate placeholder-[#000000] text-[16px] hover:border-blue-600 font-normal  border rounded-lg w-full py-4 px-3.5 leading-tight focus:outline-none border-[#FF4747]/[.30] focus:border-blue-600 focus:ring-2 focus:ring-blue-200
+}
+.notificationlable { 
+  @apply flex items-center truncate  text-[#7A0000] font-normal text-sm mt-[6px]
+}
+.mustFilled { 
+  @apply text-red-600 truncate  text-sm
+}

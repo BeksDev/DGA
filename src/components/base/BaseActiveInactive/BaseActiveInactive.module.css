@@ -1,0 +1,27 @@
+.lableWrapper {
+  @apply font-bold text-lg px-3 inline-flex space-x-[10px] items-center;
+}
+.labelSpan {
+  @apply text-[12px] font-normal text-gray-400;
+}
+.activeInactiveWrapper {
+  @apply border border-gray-200 p-[8px] rounded-[10px];
+}
+.activeInactiveSpan {
+  @apply px-[12px] py-[2px] text-[12px] rounded-[50px];
+}
+.activeSpan {
+  @apply bg-green-100 text-green-600;
+}
+.inactiveSpan {
+  @apply bg-gray-100 text-red-600;
+}
+.title {
+  @apply text-[16px] text-black font-normal;
+}
+.spanFlexWrapper {
+  @apply flex justify-between;
+}
+.spanFlexWrapperSpans {
+  @apply text-[12px] text-gray-400;
+}

@@ -1,0 +1,28 @@
+.baseInformationWrapper {
+  @apply p-2 pb-3;
+}
+.spanWrapper {
+  @apply font-bold text-lg px-3 inline-flex space-x-[10px] items-center;
+}
+.span {
+  @apply text-[12px] font-normal text-gray-400;
+}
+.contactWrapper {
+  @apply text-gray-600 rounded-[8px] border py-[8px];
+}
+.liStyles {
+  @apply py-[10px] px-[12px] flex items-center space-x-2;
+}
+.liSpan {
+  @apply text-sm text-black truncate;
+}
+
+.contact {
+  @apply py-[10px] px-[12px] cursor-pointer flex relative items-center space-x-2;
+}
+.contactSpan {
+  @apply text-sm text-black truncate;
+}
+.buttonWrapper {
+  @apply flex justify-end space-x-2 mt-2;
+}

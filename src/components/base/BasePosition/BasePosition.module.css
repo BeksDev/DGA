@@ -1,0 +1,6 @@
+.checkWrapper{
+ @apply p-[16px] border mb-3
+}
+.check {
+    @apply rounded-lg bg-blue-100 border-blue-300
+}

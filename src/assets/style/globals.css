@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Georgian';
+}
+
+@font-face {
+  font-family: 'Noto Sans Georgian';
+  src: url('../fonts/NotoSansGeorgian/NotoSansGeorgian-Regular.ttf');
+}
+
+.caseon {
+  font-feature-settings: 'case' on;
+}
+
+.max-h-screen-table {
+  min-height: calc(100vh - 145px);
+  max-height: calc(100vh - 145px);
+}
+.max-w-screen-table {
+  min-width: calc(100vw - 145px);
+  max-width: calc(100vw - 145px);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: #9CA3AF;
+  border-radius:12px
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555
+}
+
